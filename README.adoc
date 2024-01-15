@@ -1,0 +1,13 @@
+= Overview
+
+Solution and Example configuration originally intended for use in the Red Hat One 2024 Ansible Automation Containerized Lab.
+
+== Structure
+
+----
+.
+├── README.adoc
+├── config-as-code
+└── inventory
+----
+

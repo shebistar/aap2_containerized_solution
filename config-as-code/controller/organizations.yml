@@ -1,0 +1,13 @@
+controller_organizations:
+
+  - name: Default
+    description: "Default organization for resources"
+
+  - name: Devops
+    description: "DevOps and Automation Team"
+
+  - name: Sales
+    description: "Sales Organization"
+
+  - name: Marketing
+    description: "Marketing Organization"
