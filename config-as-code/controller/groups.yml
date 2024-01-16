@@ -1,0 +1,14 @@
+---
+controller_groups:
+
+  - name: app_frontends
+    description: App frontend
+    inventory: rh1-demo
+    hosts:
+    - aap-frontend
+
+  - name: app_backends
+    description: App backend
+    inventory: rh1-demo
+    hosts:
+    - aap-backend
