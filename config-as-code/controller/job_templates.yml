@@ -1,0 +1,10 @@
+---
+controller_templates:
+
+  - name: rh1-demo-job-template
+    job_type: run
+    inventory: rh1-demo-inventory
+    project: rh1-demo-project
+    playbook: helloworld.yml
+    credentials:
+      - rh1-demo-credential
