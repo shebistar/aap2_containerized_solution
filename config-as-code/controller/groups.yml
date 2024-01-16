@@ -5,10 +5,11 @@ controller_groups:
     description: App frontend
     inventory: rh1-demo
     hosts:
-    - app-frontend
+      - app-frontend."{{ GUID }}".internal
 
   - name: app_backends
     description: App backend
     inventory: rh1-demo
     hosts:
-    - app-backend
+      - app-backend."{{ GUID }}".internal
+
