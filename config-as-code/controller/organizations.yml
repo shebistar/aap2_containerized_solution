@@ -6,8 +6,3 @@ controller_organizations:
   - name: Devops
     description: "DevOps and Automation Team"
 
-  - name: Sales
-    description: "Sales Organization"
-
-  - name: Marketing
-    description: "Marketing Organization"
