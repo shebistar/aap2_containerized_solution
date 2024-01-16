@@ -23,8 +23,11 @@ aap2
 # Uncomment the lines below and amend appropriately if you want AAP to install and manage the postgres databases
 # Leave commented out if you intend to use your own external database and just set appropriate _pg_hosts vars
 # see mandatory sections under each AAP component
-[database]
-aap2-database
+
+# Note: We have commented out the next 2 lines as the lab installs the database indepedently of the bundled installer
+#
+#[database]
+#aap2-database
 
 [all:vars]
 
@@ -49,9 +52,9 @@ controller_pg_password=r3dh4t1!
 # AAP Controller - optional
 # -------------------------
 # To use the postinstall feature you need to set these variables
-#controller_postinstall=true
-#controller_license_file=<full path to your manifest .zip file>
-#controller_postinstall_dir=<full path to your config-as-code directory>
+controller_postinstall=true
+controller_license_file=/home/devops/manifest.zip
+controller_postinstall_dir=/home/devops/config-as-code
 
 # AAP Automation Hub - mandatory
 # ------------------------------
