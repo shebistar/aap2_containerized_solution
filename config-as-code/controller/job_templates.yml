@@ -5,6 +5,6 @@ controller_templates:
     job_type: run
     inventory: rh1-demo-inventory
     project: rh1-demo-project
-    playbook: helloworld.yml
+    playbook: deploy-app.yml
     credentials:
       - rh1-demo-credential
