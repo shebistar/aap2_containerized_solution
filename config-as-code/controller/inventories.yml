@@ -1,6 +1,5 @@
 ---
 controller_inventories:
-
   - name: rh1-demo-inventory
     organization: Default
     description: Red Hat One Demo App

@@ -1,8 +1,7 @@
+---
 controller_organizations:
-
   - name: Default
-    description: "Default organization for resources"
+    description: Default organization for resources
 
   - name: Devops
-    description: "DevOps and Automation Team"
-
+    description: DevOps and Automation Team
